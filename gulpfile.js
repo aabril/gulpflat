@@ -1,11 +1,14 @@
+var gulp = require('gulp');
 var jade = require('gulp-jade');
 
-gulp.task('templates', function(){
+
+gulp.task('jade', function(){
   var YOUR_LOCALS = {};
 
-  gulp.src("./lib/*jade")
+  gulp.src("./front/jade/*jade")
   .pipe(jade({
-    locals: YOUR_LOCALS
+    locals: YOUR_LOCALS,
+    pretty: true
   }))
   .pipe(gulp.dest('./dist/'))
 
