@@ -1,0 +1,26 @@
+{
+  "name": "gulpflat",
+  "version": "0.0.0",
+  "description": "An attempt to rewrite github.com/desingmodo/Flat-UI with jade and stylus",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-jade": "~0.5.0"
+  },
+  "devDependencies": {
+    "gulp-jade": "~0.5.0",
+    "gulp": "~3.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jade",
+    "stylus",
+    "frontend",
+    "flat-ui",
+    "flat",
+    "designmodo"
+  ],
+  "author": "Albert Abril",
+  "license": "Same as Flat-UI"
+}
